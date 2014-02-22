@@ -1,0 +1,47 @@
+These scripts are for communicating with the SDK provided by Advanced Brain Monitoring for the BAlert X24. Currently works only on Windows.
+
+INSTALLATION
+============
+
+Copy the directory to your local machine. Include the DLLs provided by Advanced Brain Monitoring in the current directory, or in C:\Windows\System32 or C:\Windows\WOW64 depending on your machine.
+
+The required DLLs are named:
+
+ABM_Actigraphy.dll
+ABM_ArtifactEngine.dll
+ABM_Athena.dll
+ABM_Classification.dll
+ABM_CommLib.dll
+ABM_Datastreaming.dll
+ABM_DefinitionFile.dll
+ABM_DeviceConfig.dll
+ABM_EDFEngine.dll
+ABM_EbsEngine.dll
+ABM_FFTLib.dll
+ABM_Filters.dll
+ABM_HR_library.dll
+ABM_Matrix.dll
+ABM_PSDLib.dll
+ABM_PlayEbs.dll
+ABM_PulseRateLibrary.dll
+ABM_ThirdPartyCommunication.dll
+ABM_ZScore.dll
+IHMCAugcog.dll
+SiUSBXp.dll
+
+PYTHON DEPENDENCIES
+===================
+
+This wrapper was written for Python 2.7, other versions have not been tested.
+
+The following modules are required for the wrapper:
+- ctypes
+
+The following modules are required to run the test scripts
+- time
+- numpy
+
+USAGE
+=====
+
+Run testPyX24.py using python
